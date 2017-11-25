@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "_171125_nunchuk_de_enso.ino",
+    "port": "COM3"
+}
