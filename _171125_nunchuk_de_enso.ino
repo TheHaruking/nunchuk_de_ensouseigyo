@@ -57,8 +57,8 @@ void loop() {
   digitalWrite(trigPin,  trig);
   analogWrite (cvPin,    cv_freq);
   analogWrite (pitchPin, pitch_freq);
-  analogWrite (hpf_freq, hpf_freq);
-  analogWrite (lpf_freq, lpf_freq);
+  analogWrite (hpfPin, hpf_freq);
+  analogWrite (lpfPin, lpf_freq);
 
   // 音長の処理
   count++;
